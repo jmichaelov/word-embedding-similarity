@@ -6,7 +6,7 @@ The standard metric used for calculating the similarity between two embeddings i
 
 $$\text{Sim}_{\text{cos}} = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|} $$
 
-Note that this is equivalent to $\cos(\theta_{a,b})$, the cosine of the angle $\theta_{a,b}$ between the two vectors $\bm{a}$ and $\bm{b}$.
+Note that this is equivalent to $\cos(\theta_{a,b})$, the cosine of the angle $\theta_{a,b}$ between the two vectors $\mathbf{a}$ and $\mathbf{b}$.
 
 If one or both of the sequences for which the cosine similarity is to be calculated is made up of more than one word, following convention, the mean of the embeddings is used. For words not appearing in the embeddings, there are several options:
 
