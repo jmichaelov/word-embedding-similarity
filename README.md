@@ -2,9 +2,9 @@
 This repository contains a command-line Python script (`get_similarities.py`) that allows the user to calculate the similarity of two words (or sequences of words) based on their word embeddings.  This includes the similarity between two words, or the similarity between a word and its context. The current version of the tool is compatible with [GloVe](https://nlp.stanford.edu/projects/glove/) and [fastText](https://fasttext.cc/) embeddings.
 
 ## Cosine Similarity
-The standard metric used for calculating the similarity between two embeddings is the cosine similarity $\text{Sim}_{\text{cos}}$ between their vectors $\bm{a}$ and $\bm{b}$, given by the following equation:
+The standard metric used for calculating the similarity between two embeddings is the cosine similarity $\text{Sim}_{\text{cos}}$ between their vectors $\mathbf{a}$ and $\mathbf{b}$, given by the following equation:
 
-$$\text{Sim}_{\text{cos}} = \frac{\bm{a}\cdot\bm{b}}{|\bm{a}||\bm{b}|} $$
+$$\text{Sim}_{\text{cos}} = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|} $$
 
 Note that this is equivalent to $\cos(\theta_{a,b})$, the cosine of the angle $\theta_{a,b}$ between the two vectors $\bm{a}$ and $\bm{b}$.
 
