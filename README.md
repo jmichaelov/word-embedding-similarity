@@ -18,8 +18,8 @@ If one or both of the sequences for which the cosine similarity is to be calcula
 The current approach to splitting the word into sub-word tokens is the following:
 
 1. Try to use the full word.
-2. If the full word is not present, split the word before any punctuation. For example, `Alice's` would be split into `Alice` and `'s`, `didn't` would be split into `didn` and `'t`, `sub-word` would be split into `sub` and `-word`. This often works for contractions and possessives.
-3. If not all of these sub-words are present, split into the pre-punctuation, punctuation, and post-punctuation parts of the word.  For example, `Alice's` would be split into `Alice`, `'`, and `s`; `didn't` would be split into `didn`, `'`, and `t`, `sub-word` would be split into `sub`, `-`, and `word`.
+2. If the full word is not present, split the word before any punctuation. For example, `Alice's` would be split into `Alice` and `'s`, `didn't` would be split into `didn` and `'t`, and `sub-word` would be split into `sub` and `-word`. This often works for contractions and possessives.
+3. If not all of these sub-words are present, split into the pre-punctuation, punctuation, and post-punctuation parts of the word.  For example, `Alice's` would be split into `Alice`, `'`, and `s`; `didn't` would be split into `didn`, `'`, and `t`; and `sub-word` would be split into `sub`, `-`, and `word`.
 
 ## How to use
 
